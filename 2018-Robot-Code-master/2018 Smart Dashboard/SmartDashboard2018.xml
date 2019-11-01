@@ -1,0 +1,175 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Climbing Mode" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1417" y="604"/>
+	</widget>
+	<widget field="RIGHT ENCODER Raw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="692" y="463"/>
+	</widget>
+	<widget field="LEFT ENCODER Raw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="700" y="439"/>
+	</widget>
+	<widget field="cube acquired" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1413" y="413"/>
+	</widget>
+	<widget field="Current State" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="690" y="519"/>
+		<width>358</width>
+		<height>20</height>
+	</widget>
+	<widget field="Auto Error" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="916" y="350"/>
+	</widget>
+	<widget field="Direction" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="923" y="439"/>
+	</widget>
+	<widget field="Distance Error" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="897" y="414"/>
+	</widget>
+	<widget field="Heading Error" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="898" y="389"/>
+	</widget>
+	<widget field="Exit Status" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="704" y="543"/>
+		<width>344</width>
+	</widget>
+	<widget field="L Switch" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1183" y="576"/>
+	</widget>
+	<widget field="Estimated arm height" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1376" y="71"/>
+		<height>21</height>
+	</widget>
+	<widget field="Pivoter Power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1409" y="308"/>
+	</widget>
+	<widget field="current draw pivot" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1133" y="502"/>
+	</widget>
+	<widget field="Estimated Arm Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1378" y="240"/>
+		<height>20</height>
+	</widget>
+	<widget field="Pivoter Kd*1e-6" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1143" y="393"/>
+	</widget>
+	<widget field="Pivoter Ki*1e-6" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1147" y="367"/>
+	</widget>
+	<widget field="Pivoter Kp*1e-6" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1142" y="341"/>
+	</widget>
+	<widget field="Pivoter Kstatic" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1150" y="315"/>
+	</widget>
+	<widget field="encoder raw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1162" y="551"/>
+	</widget>
+	<widget field="Cube Arm Status" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1403" y="579"/>
+	</widget>
+	<widget field="Climber Locked" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1412" y="553"/>
+	</widget>
+	<widget field="Auto mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="914" y="303"/>
+	</widget>
+	<widget field="Starting Position" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="887" y="279"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="27" y="41"/>
+		<width>624</width>
+		<height>518</height>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<widget field="Pivoter override" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1428" y="283"/>
+		<width>98</width>
+		<height>19</height>
+	</widget>
+	<widget field="Elevator override" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1425" y="119"/>
+		<width>103</width>
+		<height>19</height>
+	</widget>
+	<widget field="AutoSelector Error" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="877" y="326"/>
+	</widget>
+	<widget field="manipulator open" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1396" y="387"/>
+	</widget>
+	<widget field="Commanded Arm Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1365" y="215"/>
+	</widget>
+	<widget field="Elevator power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1403" y="142"/>
+	</widget>
+	<widget field="LEFT ENCODER" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="724" y="389"/>
+	</widget>
+	<widget field="Elevator Upper Kp*1e-3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1101" y="79"/>
+	</widget>
+	<widget field="Commanded arm height" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1364" y="45"/>
+	</widget>
+	<widget field="Elevator Lower Ki*1e-3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1107" y="232"/>
+	</widget>
+	<widget field="Elevator Lower Kstatic" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1110" y="182"/>
+		<height>20</height>
+	</widget>
+	<widget field="Elevator Upper Kd*1e-3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1102" y="129"/>
+		<width>199</width>
+	</widget>
+	<widget field="Robot X:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="723" y="280"/>
+		<width>128</width>
+	</widget>
+	<widget field="Elevator Lower Kp*1e-3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1102" y="207"/>
+	</widget>
+	<widget field="Elevator Lower Kd*1e-3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1103" y="258"/>
+	</widget>
+	<widget field="current draw elevator 2" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1108" y="476"/>
+		<height>20</height>
+	</widget>
+	<widget field="current draw elevator 1" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1107" y="451"/>
+	</widget>
+	<widget field="Heading" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="726" y="255"/>
+		<width>125</width>
+	</widget>
+	<widget field="Selection mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="892" y="255"/>
+		<width>158</width>
+		<height>20</height>
+	</widget>
+	<widget field="Elevator Upper Kstatic" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1109" y="54"/>
+	</widget>
+	<widget field="Elevator Upper Ki*1e-3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1106" y="104"/>
+		<width>195</width>
+	</widget>
+	<widget field="Robot Y:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="723" y="304"/>
+	</widget>
+	<widget field="RIGHT ENCODER" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="716" y="414"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="0" y="-7"/>
+		<property name="Image File" value="C:\Users\eric\Desktop\SmartDashboardBackground.png"/>
+		<property name="Maintain Aspect Ratio" value="true"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

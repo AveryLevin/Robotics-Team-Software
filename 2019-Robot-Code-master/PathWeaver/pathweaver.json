@@ -1,0 +1,10 @@
+{
+  "lengthUnit": "Foot",
+  "timeStep": 0.05,
+  "maxVelocity": 15.0,
+  "maxAcceleration": 24.0,
+  "maxJerk": 60.0,
+  "wheelBase": 2.41666666666667,
+  "gameName": "Destination: Deep Space",
+  "outputDir": "../2019 Robot Code/src/main/deploy"
+}

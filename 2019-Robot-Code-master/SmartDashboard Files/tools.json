@@ -1,0 +1,57 @@
+[
+  {
+    "name": "SmartDashboard",
+    "version": "2019.1.1",
+    "artifact": {
+      "classifier": "",
+      "extension": "jar",
+      "groupId": "edu.wpi.first.wpilib",
+      "version": "2019.1.1",
+      "artifactId": "SmartDashboard"
+    }
+  },
+  {
+    "name": "shuffleboard",
+    "version": "2019.1.1",
+    "artifact": {
+      "classifier": "win64",
+      "extension": "jar",
+      "groupId": "edu.wpi.first.shuffleboard",
+      "version": "2019.1.1",
+      "artifactId": "shuffleboard"
+    }
+  },
+  {
+    "name": "OutlineViewer",
+    "version": "2019.1.1",
+    "artifact": {
+      "classifier": "win64",
+      "extension": "jar",
+      "groupId": "edu.wpi.first.wpilib",
+      "version": "2019.1.1",
+      "artifactId": "OutlineViewer"
+    }
+  },
+  {
+    "name": "RobotBuilder",
+    "version": "2019.1.1",
+    "artifact": {
+      "classifier": "",
+      "extension": "jar",
+      "groupId": "edu.wpi.first.wpilib",
+      "version": "2019.1.1",
+      "artifactId": "RobotBuilder"
+    }
+  },
+  {
+    "name": "PathWeaver",
+    "version": "2019.1.1",
+    "artifact": {
+      "classifier": "win64",
+      "extension": "jar",
+      "groupId": "edu.wpi.first.wpilib",
+      "version": "2019.1.1",
+      "artifactId": "PathWeaver"
+    }
+  }
+]
